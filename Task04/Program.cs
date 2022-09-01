@@ -14,7 +14,8 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите третье число: ");
 int num3 = Convert.ToInt32(Console.ReadLine());
 
-if (num1 > num2) {
+if (num1 > num2)
+{
     if (num1 > num3)
     {
         Console.WriteLine($"Число {num1} больше остальных");

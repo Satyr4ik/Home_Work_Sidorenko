@@ -10,7 +10,7 @@ int chet = 1;
 
 while (chet <= num)
 {
-    if (chet % 2 == 0) 
+    if (chet % 2 == 0)
     {
         Console.Write($"{chet}, ");
     }
