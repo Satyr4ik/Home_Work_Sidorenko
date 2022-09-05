@@ -3,6 +3,7 @@
 // 782 -> 8
 // 918 -> 1
 
+again:
 Console.WriteLine("Введите трехзначное число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
@@ -10,7 +11,7 @@ if (num <= 99 | num >= 1000)
 {
 
     Console.WriteLine("Данное число не вляется трехзначным, введите трехзначное число.");
-
+    goto again;
 }
 else
 {
