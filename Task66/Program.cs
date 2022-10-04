@@ -22,9 +22,9 @@ int Natural (int begin, int end)
 Console.Clear();
 
 
-Console.Write("Введите начало промежутка натурального ряда: ");
+Console.Write("Введите начало промежутка: ");
 int m = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите конец промежутка натурального ряда: ");
+Console.Write("Введите конец промежутка: ");
 int n = Convert.ToInt32(Console.ReadLine());
 int summa = Natural (m,n);
 
